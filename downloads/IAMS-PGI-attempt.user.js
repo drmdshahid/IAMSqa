@@ -3,11 +3,12 @@
 // @namespace   shahid_IAMS
 // @description only for PGI exams, attempt all
 // @include     http://iamsonline.in/pgiftsstart.aspx?sid=*
-// @version     1.0b
+// @version     1.1b
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js
 // @grant       none
 // @downloadURL https://drmdshahid.github.io/IAMSqa/downloads/IAMS-PGI-attempt.user.js
 // @updateURL   https://drmdshahid.github.io/IAMSqa/downloads/IAMS-PGI-attempt.meta.js
+// @icon        https://drmdshahid.github.io/assets/danger-32.png
 // ==/UserScript==
 
 
@@ -68,15 +69,16 @@ show.type='button';
 show.value = 'Unhide all';
 document.querySelector('ul.navbar-nav').appendChild(show);
 
-var end = document.createElement('input');
-end.type='button';
-end.value = 'End';
-document.querySelector('ul.navbar-nav').appendChild(end);
+var endbtn = document.createElement('input');
+endbtn.type='button';
+endbtn.value = 'End';
+document.querySelector('ul.navbar-nav').appendChild(endbtn);
 
+//assigning actions
 btn.onclick = one;
 allbtn.onclick=all;
 show.onclick=unhide;
-end.onclick=end;
+endbtn.onclick=end;
 //console.log('ready');
 
 ////attempt a specific question

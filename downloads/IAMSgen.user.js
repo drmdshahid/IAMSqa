@@ -9,6 +9,7 @@
 // @grant      none
 // @downloadURL https://drmdshahid.github.io/IAMSqa/downloads/IAMSgen.user.js
 // @updateURL   https://drmdshahid.github.io/IAMSqa/downloads/IAMSgen.meta.js
+// @icon        https://drmdshahid.github.io/assets/danger-32.png
 // ==/UserScript==
 
 
