@@ -7,7 +7,7 @@
 // @include    http://www.iamsonline.in/results.aspx?q=*&qi=*
 // @include    http://iamsonline.in/results.aspx?q=*&qi=*
 // @grant      none
-// @downloadURL https://drmdshahid.github.io/IAMSqa/downloads/IAMSgen.js
+// @downloadURL https://drmdshahid.github.io/IAMSqa/downloads/IAMSgen.user.js
 // @updateURL   https://drmdshahid.github.io/IAMSqa/downloads/IAMSgen.meta.js
 // ==/UserScript==
 
